@@ -138,6 +138,17 @@ for exactly what's left.
 
 ---
 
+## ✍️ Manuscript Draft Status
+
+7 of 15 sections drafted so far — Introduction, Background, Related
+Surveys, Methodology, Taxonomy, Open Problems, and Threats to
+Validity. Sections 6-12 and 15 are **intentionally not started**: they
+report what included studies say, and no literature has been screened
+yet — writing them now would mean fabricating findings. Full status
+table and reading order: [`paper/README.md`](paper/README.md).
+
+---
+
 ## 📁 Repository Map
 
 ```
@@ -148,10 +159,11 @@ lrl-llm-survey/
 │   ├── study_a_tokenizer_fertility/     # tokenizer fertility & cost-premium pipeline
 │   ├── study_b_benchmark_provenance/    # benchmark provenance catalog & audit
 │   └── study_c_error_taxonomy/          # native-speaker error taxonomy & kappa pipeline
+├── figures/                             # Figure 1 (taxonomy diagram) source + exports
 ├── protocol/                            # PRISMA pre-registration draft
 ├── screening/                           # PRISMA screening decisions (coming)
 ├── extraction/                          # 22-field data extraction sheet (coming)
-└── paper/                               # manuscript source (coming)
+└── paper/                               # manuscript section drafts + status index
 ```
 
 ---
