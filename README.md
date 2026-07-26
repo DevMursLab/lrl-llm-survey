@@ -111,6 +111,19 @@ language competence.
 
 ---
 
+## 🔬 Study C: Native-Speaker Error Taxonomy (pipeline ready)
+
+A 9-code taxonomy (conjunct malformation, ZWJ/ZWNJ misuse, register
+collapse, honorific inconsistency, calque, anglicization, numeral/date
+localization, cultural error, dialect flattening) plus a working
+Fleiss'-kappa pipeline are live in
+[`audit/study_c_error_taxonomy/`](audit/study_c_error_taxonomy/), with
+10 real single-model Bangla samples as a pilot. **Human annotation and
+the remaining 3 models are the next step** — see that folder's README
+for exactly what's left.
+
+---
+
 ## 📁 Repository Map
 
 ```
@@ -119,7 +132,8 @@ lrl-llm-survey/
 ├── LRL-LLM-Review-Paper-Blueprint.md    # earlier planning draft
 ├── audit/
 │   ├── study_a_tokenizer_fertility/     # tokenizer fertility & cost-premium pipeline
-│   └── study_b_benchmark_provenance/    # benchmark provenance catalog & audit
+│   ├── study_b_benchmark_provenance/    # benchmark provenance catalog & audit
+│   └── study_c_error_taxonomy/          # native-speaker error taxonomy & kappa pipeline
 ├── protocol/                            # PRISMA pre-registration draft
 ├── screening/                           # PRISMA screening decisions (coming)
 ├── extraction/                          # 22-field data extraction sheet (coming)
