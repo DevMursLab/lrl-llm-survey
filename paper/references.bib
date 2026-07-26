@@ -1,0 +1,259 @@
+% references.bib - working bibliography for the LRL-LLM systematic review
+%
+% STATUS: every entry below corresponds to a citation actually used in
+% the drafted sections (section1/2/4/5/13/14) or in the empirical audit
+% (Study A/B/C). Entries are NOT guaranteed typo-free BibTeX pulled from
+% a citation manager - before submission, re-export every entry from
+% Zotero/DBLP/ACL Anthology/arXiv directly rather than trusting this
+% hand-assembled file. See the TODO block at the end for what still
+% needs primary-source verification.
+
+@inproceedings{joshi2020state,
+  title     = {The State and Fate of Linguistic Diversity and Inclusion in the NLP World},
+  author    = {Joshi, Pratik and Santy, Sebastin and Budhiraja, Amar and Bali, Kalika and Choudhury, Monojit},
+  booktitle = {Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},
+  year      = {2020},
+  note      = {ACL 2020. Introduces the 0--5 language resource class taxonomy used throughout this review (Sections 2, 5).}
+}
+
+@inproceedings{hedderich2021survey,
+  title     = {A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios},
+  author    = {Hedderich, Michael A. and Lange, Lukas and Adel, Heike and Str{\"o}tgen, Jannik and Klakow, Dietrich},
+  booktitle = {Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics},
+  year      = {2021},
+  note      = {NAACL 2021. Pre-LLM-era survey foundational to this review's positioning (Section 1, 3, 5).}
+}
+
+@misc{magueresse2020lowresource,
+  title  = {Low-resource Languages: A Review of Past Work and Future Challenges},
+  author = {Magueresse, Alexandre and Carles, Vincent and Heetderks, Evan},
+  year   = {2020},
+  note   = {arXiv preprint; exact arXiv ID to be confirmed before submission.}
+}
+
+@inproceedings{page2021prisma,
+  title     = {The PRISMA 2020 Statement: An Updated Guideline for Reporting Systematic Reviews},
+  author    = {Page, Matthew J. and McKenzie, Joanne E. and Bossuyt, Patrick M. and Boutron, Isabelle and Hoffmann, Tammy C. and Mulrow, Cynthia D. and Shamseer, Larissa and Tetzlaff, Jennifer M. and Akl, Elie A. and Brennan, Sue E. and others},
+  booktitle = {BMJ},
+  volume    = {372},
+  year      = {2021},
+  note      = {Cited in Section 4.1 as the review protocol this paper follows.}
+}
+
+@article{landis1977measurement,
+  title   = {The Measurement of Observer Agreement for Categorical Data},
+  author  = {Landis, J. Richard and Koch, Gary G.},
+  journal = {Biometrics},
+  volume  = {33},
+  number  = {1},
+  pages   = {159--174},
+  year    = {1977},
+  note    = {Cited for the kappa interpretation bands used in Section 4.6 and compute_agreement.py.}
+}
+
+% --- 2024-2026 competing/adjacent surveys (Delta-table, Section 3 / Section 1) ---
+
+@article{qin2024multilingual,
+  title   = {Multilingual Large Language Model: A Survey of Resources, Taxonomy and Frontiers},
+  author  = {Qin, Libo and Chen, Qiguang and Zhou, Yuhang and Chen, Zhi and Li, Yinghui and Liao, Lizi and Li, Min and Che, Wanxiang and Yu, Philip S.},
+  journal = {Patterns},
+  volume  = {6},
+  number  = {1},
+  year    = {2025},
+  note    = {arXiv:2404.04925 (2024); published in Patterns 2025. Cited in Sections 1, 3.}
+}
+
+@misc{huang2024survey,
+  title  = {A Survey on Large Language Models with Multilingualism: Recent Advances and New Frontiers},
+  author = {Huang, Kaiyu and Mo, Fengran and Li, Hongliang and Li, You and Zhang, Yuanchi and Yi, Weijian and Mao, Yulong and Liu, Jinchen and Xu, Yuzhuang and Xu, Jinan and Nie, Jian-Yun and Liu, Yang},
+  year   = {2024},
+  note   = {arXiv:2405.10936. Cited in Sections 1, 3.}
+}
+
+@misc{tamang2024evaluating,
+  title  = {Evaluating Tokenizer Performance of Large Language Models Across Official Indian Languages},
+  author = {Tamang, S. and Bora, D. J.},
+  year   = {2024},
+  note   = {arXiv:2411.12240. Direct empirical precedent for Study A; cited in Sections 3, 4.10.}
+}
+
+@misc{lupascu2025large,
+  title  = {Large Multimodal Models for Low-Resource Languages: A Survey},
+  author = {Lupascu, Marian and Rogoz, Ana-Cristina and Stupariu, Mihai Sorin and Ionescu, Radu Tudor},
+  year   = {2025},
+  note   = {arXiv:2502.05568. Cited in Section 3 (Delta-table).}
+}
+
+@misc{gupta2025breadthfirst,
+  title  = {A Breadth-First Catalog of Text Processing, Speech Processing and Multimodal Research in South Asian Languages},
+  author = {Gupta, Pranav},
+  year   = {2025},
+  note   = {arXiv:2501.00029. Closest direct competitor; cited and directly differentiated against in Section 1 and 3.}
+}
+
+@misc{mcgiff2025overcoming,
+  title  = {Overcoming Data Scarcity in Generative Language Modelling for Low-Resource Languages: A Systematic Review},
+  author = {McGiff, Josh and Nikolov, Nikola S.},
+  year   = {2025},
+  note   = {arXiv:2505.04531. PRISMA-status unconfirmed -- verify full text before final citation. Cited in Section 3.}
+}
+
+@misc{poria2025bhaasha,
+  title  = {Bhaasha, Bh{\=a}{\d{s}}{\=a}, Zaban: A Survey for Low-Resourced Languages in South Asia -- Current Stage and Challenges},
+  author = {Poria, Sampoorna and Huang, Xiaolei},
+  year   = {2025},
+  note   = {arXiv:2509.11570. Closest direct competitor; cited and directly differentiated against in Section 1 and 3.}
+}
+
+@misc{dogruoz2026challenges,
+  title  = {Challenges and Recommendations for LLMs-as-a-Judge in Multilingual Settings and Low-Resource Languages},
+  author = {Do{\u{g}}ru{\"o}z, A. Seza and Liao, Xixian and Blaschke, Verena and Prange, Jakob and Li, Senyu and Adelani, David Ifeoluwa},
+  year   = {2026},
+  note   = {arXiv:2607.02235. Adjacent empirical precedent for Study C; cited in Section 3, 4.10.}
+}
+
+@misc{kumar2026bhashasutra,
+  title  = {BhashaSutra: A Task-Centric Unified Survey of Indian NLP Datasets, Corpora, and Resources},
+  author = {Kumar, Raghvendra and Raj, Devankar and Saha, Sriparna},
+  year   = {2026},
+  note   = {arXiv:2604.18423. Accepted ACL 2026 (Main). Cited in Section 3 (Delta-table).}
+}
+
+% --- Study B benchmark provenance sources (Section 10, once drafted) ---
+
+@misc{nllb2022noleft,
+  title  = {No Language Left Behind: Scaling Human-Centered Machine Translation},
+  author = {{NLLB Team}},
+  year   = {2022},
+  note   = {Source for FLORES-200 (Study A/B corpus and benchmark).}
+}
+
+@inproceedings{bandarkar2024belebele,
+  title     = {The Belebele Benchmark: A Parallel Reading Comprehension Dataset in 122 Language Variants},
+  author    = {Bandarkar, Lucas and Liang, Davis and Muller, Benjamin and Artetxe, Mikel and Shukla, Satya Narayan and Husa, Donald and Goyal, Naman and Krishnan, Abhinandan and Zettlemoyer, Luke and Khabsa, Madian},
+  booktitle = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics},
+  year      = {2024},
+  note      = {Study B catalog entry.}
+}
+
+@inproceedings{clark2020tydiqa,
+  title     = {TyDi QA: A Benchmark for Information-Seeking Question Answering in Typologically Diverse Languages},
+  author    = {Clark, Jonathan H. and Choi, Eunsol and Collins, Michael and Garrette, Dan and Kwiatkowski, Tom and Nikolaev, Vitaly and Palomaki, Jennimaria},
+  booktitle = {Transactions of the Association for Computational Linguistics},
+  year      = {2020},
+  note      = {Study B catalog entry (native-authored QA).}
+}
+
+@inproceedings{aggarwal2022indicxnli,
+  title     = {IndicXNLI: Evaluating Multilingual Inference for Indian Languages},
+  author    = {Aggarwal, Divyanshu and Gupta, Vivek and Kunchukuttan, Anoop},
+  booktitle = {Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2022},
+  note      = {arXiv:2204.08776. Study B catalog entry (machine-translated).}
+}
+
+@inproceedings{bhattacharjee2022banglabert,
+  title     = {BanglaBERT: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in Bangla},
+  author    = {Bhattacharjee, Abhik and Hasan, Tahmid and Ahmad, Wasi Uddin and Mubasshir, Kazi Samin and Islam, Md Saiful and Iqbal, Anindya and Rahman, M. Sohel and Shahriyar, Rifat},
+  booktitle = {Findings of the Association for Computational Linguistics: NAACL 2022},
+  year      = {2022},
+  note      = {Introduces BLUB (Study B catalog) and the BanglaBERT tokenizer used in Study A pilot.}
+}
+
+@inproceedings{kakwani2020indicnlpsuite,
+  title     = {IndicNLPSuite: Monolingual Corpora, Evaluation Benchmarks and Pre-trained Multilingual Language Models for Indian Languages},
+  author    = {Kakwani, Divyanshu and Kunchukuttan, Anoop and Golla, Satish and N.C., Gokul and Bhattacharyya, Avik and Khapra, Mitesh M. and Kumar, Pratyush},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2020},
+  year      = {2020},
+  note      = {Study B catalog entry (native-authored, IndicNLPSuite).}
+}
+
+@inproceedings{doddapaneni2023indicxtreme,
+  title     = {Towards Leaving No Indic Language Behind: Building Monolingual Corpora, Benchmark and Models for Indic Languages},
+  author    = {Doddapaneni, Sumanth and Aralikatte, Rahul and Ramesh, Gowtham and Goyal, Shreya and Khapra, Mitesh M. and Kunchukuttan, Anoop and Kumar, Pratyush},
+  booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics},
+  year      = {2023},
+  note      = {arXiv:2212.05409. Introduces IndicXTREME (Study B catalog entry).}
+}
+
+@inproceedings{islam2021sentnob,
+  title     = {SentNoB: A Dataset for Analysing Sentiment on Noisy Bangla Texts},
+  author    = {Islam, Khondoker Ittehadul and Kar, Sudipta and Islam, Md Saiful and Amin, Mohammad Ruhul},
+  booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2021},
+  year      = {2021},
+  note      = {Study B catalog entry (native-authored).}
+}
+
+@inproceedings{hossain2020banfakenews,
+  title     = {BanFakeNews: A Dataset for Detecting Fake News in Bangla},
+  author    = {Hossain, Md Zobaer and Rahman, Md Ashraful and Islam, Md Saiful and Kar, Sudipta},
+  booktitle = {Proceedings of the 12th Language Resources and Evaluation Conference},
+  year      = {2020},
+  note      = {Study B catalog entry (native-authored).}
+}
+
+@inproceedings{ponti2020xcopa,
+  title     = {XCOPA: A Multilingual Dataset for Causal Commonsense Reasoning},
+  author    = {Ponti, Edoardo Maria and Glava{\v{s}}, Goran and Majewska, Olga and Liu, Qianchu and Vuli{\'c}, Ivan and Korhonen, Anna},
+  booktitle = {Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2020},
+  note      = {Study B catalog entry (human-translated, XCOPA).}
+}
+
+@inproceedings{mhaske2023naamapadam,
+  title     = {Naamapadam: A Large-Scale Named Entity Annotated Data for Indic Languages},
+  author    = {Mhaske, Arnav and Kedia, Harshit and Doddapaneni, Sumanth and Khapra, Mitesh M. and Kumar, Pratyush and Murthy, Rudra and Kunchukuttan, Anoop},
+  booktitle = {Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics},
+  year      = {2023},
+  note      = {Study B catalog entry (mixed: machine-projected training, human-annotated test).}
+}
+
+@inproceedings{roark2020dakshina,
+  title     = {Processing South Asian Languages Written in the Latin Script: The Dakshina Dataset},
+  author    = {Roark, Brian and Wolf-Sonkin, Lawrence and Kirov, Christo and Mielke, Sabrina J. and Johny, Cibu and Demirsahin, Isin and Hall, Keith},
+  booktitle = {Proceedings of the 12th Language Resources and Evaluation Conference},
+  year      = {2020},
+  note      = {Study B catalog entry (mixed native/human-romanized).}
+}
+
+@inproceedings{ahuja2023mega,
+  title     = {MEGA: Multilingual Evaluation of Generative AI},
+  author    = {Ahuja, Kabir and Diddee, Harshita and Hada, Rishav and Ochieng, Millicent and Ramesh, Krithika and Jain, Prachi and Nambi, Akshay and Ganu, Tanuja and Segal, Sameer and Ahmed, Mohamed and Bali, Kalika and Sitaram, Sunayana},
+  booktitle = {Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2023},
+  note      = {Study B catalog entry (inherited provenance).}
+}
+
+@misc{kreutzer2022quality,
+  title  = {Quality at a Glance: An Audit of Web-Crawled Multilingual Datasets},
+  author = {Kreutzer, Julia and Caswell, Isaac and Wang, Lisa and Wahab, Ahsan and van Esch, Daan and Ulzii-Orshikh, Nasanbayar and Tapo, Allahsera and Subramani, Nishant and Sokolov, Artem and Sikasote, Claytone and others},
+  year   = {2022},
+  note   = {TACL 2022. Cited in Section 13 (OP-2) as foundation for corpus-quality auditing.}
+}
+
+% --- Sylheti-English MT benchmark cited in Study B catalog ---
+
+@misc{sylheti2025mt,
+  title  = {Sylheti-English Machine Translation Benchmark (refined)},
+  author = {{Author(s) to be confirmed}},
+  year   = {2025},
+  note   = {arXiv:2505.12273. 1,500 native-translated Sylheti-English sentence pairs; Study B catalog entry. TODO: retrieve full author list before submission.}
+}
+
+% =====================================================================
+% TODO before this bib file is submission-ready
+% =====================================================================
+% - [ ] Re-export EVERY entry above directly from ACL Anthology / DBLP /
+%       arXiv / the publisher, not from this hand-typed file - treat
+%       this file as a checklist of what to verify, not a final source.
+% - [ ] Confirm Magueresse et al. (2020)'s exact arXiv ID.
+% - [ ] Confirm the Sylheti-English MT benchmark's actual author list
+%       (arXiv:2505.12273) - currently a placeholder.
+% - [ ] Add entries for: NLLB Team (2022, full citation), Petrov et al.
+%       (NeurIPS 2023, tokenizer fairness - cited in blueprint but not
+%       yet in a drafted section), Hu et al. (LoRA, ICLR 2022), and any
+%       citation added to Sections 6-12 once those are drafted after
+%       PRISMA screening.
+% - [ ] Cross-check every BibTeX key against in-text \cite{} calls once
+%       the LaTeX manuscript skeleton exists, to catch typos and unused
+%       entries.
