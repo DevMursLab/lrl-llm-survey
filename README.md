@@ -16,6 +16,11 @@
 
 </div>
 
+> 👉 **Continuing this project?** See [`NEXT_STEPS.md`](NEXT_STEPS.md)
+> for the exact, ordered list of what needs a human (accounts, search
+> execution, annotator recruitment) before the remaining sections can
+> be written.
+
 ---
 
 ## 🔥 What this is
