@@ -88,6 +88,29 @@ pending gated-dataset access — see the Study A README.)*
 
 ---
 
+## 📊 Live Finding: Most "South Asian" Benchmarks Aren't Native
+
+[Study B](audit/study_b_benchmark_provenance/) coded the provenance of
+26 verified multilingual/Indic NLP benchmarks:
+
+<div align="center">
+<img src="audit/study_b_benchmark_provenance/figure7_provenance.png" width="480" alt="benchmark provenance chart"/>
+</div>
+
+| Provenance | Count | Share |
+|:---|---:|---:|
+| 🟢 Native-authored | 8 | 30.8% |
+| 🟡 Human-translated | 8 | 30.8% |
+| 🔴 Machine-translated | 2 | 7.7% |
+| ⚪ Mixed / inherited | 8 | 30.8% |
+
+**69.2% of catalogued South-Asian-language benchmarks are not purely
+native-authored.** Most "Bangla" or "Urdu" evaluation numbers in the
+literature may partly reflect translation artifacts rather than native
+language competence.
+
+---
+
 ## 📁 Repository Map
 
 ```
@@ -95,8 +118,9 @@ lrl-llm-survey/
 ├── LRL-LLM-MASTER-PROTOTYPE.md          # full paper blueprint (single source of truth)
 ├── LRL-LLM-Review-Paper-Blueprint.md    # earlier planning draft
 ├── audit/
-│   └── study_a_tokenizer_fertility/     # tokenizer fertility & cost-premium pipeline
-├── protocol/                            # PRISMA pre-registration (coming)
+│   ├── study_a_tokenizer_fertility/     # tokenizer fertility & cost-premium pipeline
+│   └── study_b_benchmark_provenance/    # benchmark provenance catalog & audit
+├── protocol/                            # PRISMA pre-registration draft
 ├── screening/                           # PRISMA screening decisions (coming)
 ├── extraction/                          # 22-field data extraction sheet (coming)
 └── paper/                               # manuscript source (coming)
