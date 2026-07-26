@@ -6,6 +6,11 @@ with its own word-count target and a `TODO before this draft is
 submission-ready` list at the bottom - read that list before treating
 any section as final.
 
+Citations used across all drafted sections are consolidated in
+[`references.bib`](references.bib) (29 entries, syntax-validated) -
+treat it as a checklist to re-verify against primary sources, not a
+final bibliography.
+
 ## Status at a glance
 
 | § | Section | File | Status | Blocked on |
