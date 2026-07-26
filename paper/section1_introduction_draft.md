@@ -12,11 +12,13 @@ Large language models (LLMs) have transformed natural language
 processing at a pace with few historical precedents, yet this
 transformation has not reached most of the world's languages evenly.
 Of the world's more than 7,000 languages, effective LLM support
-concentrates on a few dozen; Bangla — the sixth most-spoken language
-globally, with over 270 million speakers — remains persistently
-underrepresented in benchmark suites, training-data allocation, and
-tokenizer design, despite being spoken by more people than French,
-Italian, or Korean combined. This paper asks a narrow but consequential
+concentrates on a few dozen; Bangla — among the sixth-to-seventh
+most-spoken languages globally, with approximately 230-270 million
+speakers depending on source and count method [TODO: cite one
+Ethnologue edition] — remains persistently underrepresented in
+benchmark suites, training-data allocation, and tokenizer design,
+despite being spoken by more people than French, Italian, or Korean
+combined. This paper asks a narrow but consequential
 question: in the specific era of instruction-tuned, general-purpose
 LLMs, exactly where and how much does this underrepresentation cost
 Bangla and neighboring South Asian low-resource languages, and can that
@@ -110,7 +112,7 @@ concludes.
 ## TODO before this draft is submission-ready
 
 - [ ] Replace `[N]`, `[n]`, `κ = [x.xx]` with real PRISMA screening numbers once search + dual screening is complete.
-- [ ] Verify the "270 million speakers" and "sixth most-spoken language" claims against a current, citable source (e.g., Ethnologue) before submission — don't cite from memory.
+- [x] Verified via web search (2026-07-27): "270 million, 6th most spoken" was imprecise. Ethnologue-based sources give ~228M native / ~265-274M total speakers, ranking 6th-7th depending on edition/count method — text above already hedged accordingly. Remaining TODO: pick and cite one specific Ethnologue edition rather than the hedge, before final submission.
 - [ ] Confirm Study A's 1.67x figure is still described as a **pilot** (Bengali-English via Tatoeba) here, not the full 12-language FLORES-200 result, until that expansion happens — see `audit/study_a_tokenizer_fertility/README.md`.
 - [ ] Add citations for Qin et al. 2024, Huang et al. 2024, Gupta 2025, Poria & Huang 2025 (arXiv IDs are in `LRL-LLM-MASTER-PROTOTYPE.md` → B5) once the references.bib file exists.
 - [ ] Re-read for the banned words: "significantly", "dramatically", "clearly" — none currently appear in this draft, keep it that way through revision.
