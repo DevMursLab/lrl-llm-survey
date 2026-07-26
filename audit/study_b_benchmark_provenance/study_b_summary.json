@@ -1,0 +1,22 @@
+{
+  "total_benchmarks": 26,
+  "counts": {
+    "Native-authored": 8,
+    "Human-translated": 8,
+    "Machine-translated": 2,
+    "Mixed / inherited": 8
+  },
+  "percentages": {
+    "Native-authored": 30.8,
+    "Human-translated": 30.8,
+    "Machine-translated": 7.7,
+    "Mixed / inherited": 30.8
+  },
+  "pct_not_native": 69.2,
+  "low_confidence_entries": [
+    "IndicXParaphrase",
+    "DialectBench",
+    "INCLUDE"
+  ],
+  "note": "Catalog built from web-verified sources (arXiv/ACL Anthology/HF dataset cards/GitHub) as of 2026-07; entries marked confidence=low or medium need direct primary-source re-verification before final submission."
+}
