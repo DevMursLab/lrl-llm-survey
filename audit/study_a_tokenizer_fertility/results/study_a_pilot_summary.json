@@ -1,0 +1,8 @@
+{
+  "corpus": "Helsinki-NLP/tatoeba_mt (ben-eng)",
+  "n_parallel_pairs": 2499,
+  "mean_token_premium": 1.2357480373754208,
+  "mean_fertility_bengali": 2.1742271812694347,
+  "mean_context_shrink_pct": 14.070055816532985,
+  "note": "PILOT on single language pair (Bengali-English) via ungated Tatoeba corpus. Full study requires FLORES-200 (gated on HF) for 12-language parallel coverage."
+}
