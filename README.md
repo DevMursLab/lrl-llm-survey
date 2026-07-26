@@ -32,6 +32,20 @@ generated and can regenerate ourselves.
 
 ---
 
+## 🗺️ The Signature Figure: LRL-LLM Lifecycle Taxonomy
+
+<div align="center">
+<img src="figures/figure1_taxonomy.png" width="560" alt="six-layer taxonomy diagram"/>
+</div>
+
+Six pipeline-stage layers — from raw script encoding to deployment
+equity — replace the flat "method list" structure of prior surveys.
+Every included study gets mapped onto this taxonomy; empty cells in
+the taxonomy × language-tier grid become the visual proof of the
+field's real gaps. Full write-up: [`paper/section5_taxonomy_draft.md`](paper/section5_taxonomy_draft.md).
+
+---
+
 ## 🧬 The Four Pillars
 
 <table>
